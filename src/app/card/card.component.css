@@ -1,0 +1,44 @@
+.card{
+    
+    /* align-items: center; */
+    width: 1650px;
+    height: 385px;
+    background-color: #f7ede7;
+    position: relative;
+    left: 60px;
+    border-radius: 10px;
+    padding-left: 30px;
+    overflow-y: hidden;
+}
+.para{
+  margin-left: 130px;
+  /* margin-top: 100px; */
+  padding-top: 100px;
+  font-size: 40px;
+  color: #054423;
+  /* font-family: ; */
+
+}
+.buy{
+    /* display: flex; */
+    /* align-items: flex-end; */
+    transform: translatey(-100px);
+    margin-left: 190px;
+    
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: #054423;
+    color: white;
+}
+img{
+    transform: translate(760px);
+    margin-top: -270px;
+    width: 300px;
+}
+.sele{
+    font-size: 40px;
+    margin-left: 137px;
+    color: #054423;
+}

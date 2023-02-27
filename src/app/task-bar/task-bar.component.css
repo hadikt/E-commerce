@@ -1,0 +1,84 @@
+.taskbar{
+    background-color: #013d29;
+    display: flex;
+    width: 100vw;
+    color: white;
+    justify-content: space-between;
+    font-size: 17px;
+    position: relative;
+  }
+  .num{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 6px;
+    
+  
+  }
+  .numbers{
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .plus{
+    margin-top: 22px;
+  }
+  .offer{
+    position: absolute;
+    left: 420px;
+    top: 6px;
+    /* margin-left: 280px; */
+    /* margin-top: 22px; */
+  }
+  .english{
+    /* background-color: #013d29; */
+    color: white;
+    /* border: none; */
+    /* margin-left: 470px; */
+    position: absolute;
+    left: 1430px;
+    
+  }
+  .locations{
+    background-color: #013d29;
+    border: none;
+    color: white;
+    margin-right: 150px;
+    padding-right: 60px;
+  }
+  .two{
+    position: absolute;
+    left: 180px;
+    top: 5px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* gap: 20px; */
+    /* font-size: 19px; */
+  }
+  .offer{
+    padding-left: 300px;
+  }
+  .eng{
+    font-size: 15px;
+  }
+  .loca{
+    font-size: 16px;
+    position: absolute;
+    top: 4px;
+    left: 1490px;
+  }
+  .lan{
+    position: absolute;
+    left: 1400px;
+  }
+  .materialss{
+    position: absolute;
+    left: 1550px;
+    /* margin-right: -30px; */
+  }
+  .red{
+    position: absolute;
+    left: 170px;
+    top: 3px;
+  }
+  

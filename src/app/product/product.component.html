@@ -1,0 +1,49 @@
+<!-- <p>product works!</p> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Document</title>
+</head>
+<body>
+    
+        <h1 class="red">Headphones For you! </h1>
+        <div class="productss">
+
+            <div class="app" *ngFor="let item of products">
+                <div class="product"  >
+                    <img src="{{item.images[0]}}" alt="" class="ear">
+                    <button class="like"><span class="material-symbols-outlined">
+                        favorite
+                    </span></button>
+                </div>
+                <!-- <p class="square"></p> -->
+                <div class="price">
+                    <p class="bud">{{item.brand}}   </p>
+                    <p id="prize">{{item.price}}</p>
+                </div>
+                <p class="organic">{{item.title}}</p>
+                <div class="two">
+                    <p class="spans"><span class="material-symbols-outlined">
+                        star
+                </span><span class="material-symbols-outlined">
+                    star
+                </span><span class="material-symbols-outlined">
+                    star
+                </span><span class="material-symbols-outlined">
+                    star
+                </span><span class="material-symbols-outlined">
+                    star
+                </span></p>
+                <p class="one">(121)</p>
+            </div>
+            <button class="add">Add to Cart</button>
+        </div>
+        
+    </div>
+    </body>
+    </html>
